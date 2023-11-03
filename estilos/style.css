@@ -1,0 +1,432 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    background-color: rgb(207, 104, 104);
+    padding: 10px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+       
+}
+
+nav > ul >li {
+    display: inline;
+    margin-top: 30px;
+    font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.5em;     
+    
+}
+nav > ul > li > a{
+    color: black;
+    padding: 20px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif, monospace;
+    display: inline-block;
+    transition: background.1s;   
+    
+}
+nav > ul > li > a:hover{
+    background-color: rgba(135, 139, 143, 0.546);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.apresentacao{
+    background-color: #f2d75e2a;
+   border-radius: 20px;
+   margin:90px ;
+   padding:80px;
+   margin-top: 150px;
+  
+  
+    
+}
+
+.apresentacao > h1 {
+    font-family:'Oswald', monospace, Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 6.0em;
+}
+.apresentacao > h1 > a > img {
+   width: 48px;
+   border-radius: 50%;
+}
+
+
+.principal{
+    margin: 40px;
+    
+}
+.principal > h3 {
+    font-family: 'Oswald',monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+  
+    
+}
+.principal > p {
+    font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding: 100px;
+  
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.projetos{
+    text-align: center;
+    padding-top: 150px;
+    background-color: #f2d75e2a;
+   border-radius: 20px;
+   margin:550px ;
+   padding:80px;
+   margin-top: 150px;
+}
+.projetos > a >  p {
+    font-size: 1.2em;
+    font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+}
+footer{
+    text-align: center;
+    font-family:'Oswald', monospace, sans-serif;
+    font-size: 1.3em;
+    padding: 80px;
+   
+
+}
+
+@media screen and (min-width:375px) and ( max-width: 576px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    
+    body{
+       
+       font-size: 1.0em;
+    }  
+   
+    nav {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+        position: fixed;
+        padding: 1%;   
+        
+    }
+ 
+ 
+    nav > ul >li {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+    }
+ 
+ 
+  
+ 
+    .apresentacao{
+        background-color: #f2d75e2a;
+       border-radius: 8px;
+       margin:40px ;
+       padding:50px;
+       margin-top: 130px;
+       
+    }
+    
+    .apresentacao > h1 {
+        font-family:'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1.3em;
+       
+    }
+    .apresentacao > h1 > a > img {
+       width: 15px;
+       border-radius: 50%;
+    }
+    
+    
+    .principal{
+        margin: 40px; 
+       
+        
+    }
+    .principal > h3 {
+        font-family: 'Oswald',monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        padding-top: 85px;
+        
+    }
+    .principal > p {
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.0em; 
+    
+    }
+    .projetos{
+        text-align: center;
+        padding:30px;
+        margin: 20px;
+        margin-top: 100px;
+        background-color: #f2d75e2a;
+         
+    }
+    .projetos > a >  p {
+        font-size: 1.0em;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    }
+    .projetos > a> .img02{
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        
+    }
+ }
+ 
+ @media screen and (min-width: 577px) and (max-width:768px) {
+    
+    nav {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size:1.0em;
+        position: fixed;
+        padding: 1%; 
+        
+    }
+    nav > ul >li {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+    }
+ 
+    
+ 
+    .apresentacao{
+       background-color: #f2d75e2a;
+       border-radius: 8px;
+       margin:40px ;
+       padding:90px;
+       margin-top: 100px;
+       
+    }
+    
+    .apresentacao > h1 {
+        font-family:'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1.6em;
+        
+ 
+       
+    }
+    .apresentacao > h1 > a > img {
+       width: 15px;
+       border-radius: 50%;
+    }
+    .principal{
+        margin: 40px; 
+       
+        
+    }
+    .principal > h3 {
+        font-family: 'Oswald',monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+        padding-top: 85px;
+        
+    }
+    .principal > p {
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+    
+    }
+   
+ 
+    .projetos{
+        text-align: center;
+        padding:30px;
+        margin: 20px;
+        margin-top: 100px;
+        background-color: #f2d75e2a;
+         
+    }
+    .projetos > a >  p {
+        font-size: 1.2em;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    }
+    
+    .projetos > a> .img02{
+        width: 50vw;
+        height: 45vh;
+        text-align: center;
+        
+    }
+    
+ }
+ @media screen and (min-width: 768px) and (max-width:992px){
+    nav {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size:1.0em;
+        position: fixed;
+        padding: 0%; 
+        
+    }
+    nav > ul >li {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.4em;
+    }
+ 
+    
+ 
+    .apresentacao{
+       background-color: #f2d75e2a;
+       border-radius: 8px;
+       margin:40px ;
+       padding:90px;
+       margin-top: 150px;
+       
+    }
+    
+    .apresentacao > h1 {
+        font-family:'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 3.0em;
+      
+    }
+    .apresentacao > h1 > a > img {
+       width: 30px;
+       border-radius: 50%;
+    }
+    .principal{
+        margin: 20px; 
+       
+        
+    }
+    .principal > h3 {
+        font-family: 'Oswald',monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
+        padding-top: 80px;
+        
+    }
+    .principal > p {
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.3em; 
+       
+    }
+ 
+    .projetos{
+        text-align: center;
+        padding:30px;
+        margin: 20px;
+        margin-top: 100px;
+        background-color: #f2d75e2a;
+         
+    }
+    .projetos > a >  p {
+        font-size: 1.2em;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    }
+    
+    .projetos > a> .img02{
+        width: 25rem;
+        height: 30rem;
+        text-align: center;
+        
+    }
+    
+ }
+ @media screen and (min-width:992px) and (max-width:1200px){
+    nav {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size:1.2em;
+        position: fixed;
+        padding: 0%; 
+        
+    }
+    nav > ul >li {
+        display: inline;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+    }
+ 
+    
+ 
+    .apresentacao{
+       background-color: #f2d75e2a;
+       border-radius: 8px;
+       margin:40px ;
+       padding:90px;
+       margin-top: 150px;
+       
+    }
+    
+    .apresentacao > h1 {
+        font-family:'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 4.0em;
+      
+    }
+    .apresentacao > h1 > a > img {
+       width: 30px;
+       border-radius: 50%;
+    }
+    .principal{
+        margin: 20px; 
+       
+        
+    }
+    .principal > h3 {
+        font-family: 'Oswald',monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.8em;
+        padding-top: 80px;
+        
+    }
+    .principal > p {
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+        font-size: 1.6em; 
+       
+    }
+ 
+    .projetos{
+        text-align: center;
+        padding:30px;
+        margin: 80px;
+        margin-top: 100px;
+        background-color: #f2d75e2a;
+         
+    }
+    .projetos > a >  p {
+        font-size: 1.2em;
+        font-family: 'Oswald', monospace, Arial, Helvetica, sans-serif;
+    }
+    
+    .projetos > a> .img02{
+        width: 25rem;
+        height: 30rem;
+        text-align: center;
+        
+    }
+ }
+ 
+ 
+
+    
